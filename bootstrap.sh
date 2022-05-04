@@ -23,10 +23,10 @@ if [ ! -d $HOME/multipool ]; then
 		echo
 	fi
 
-	echo Downloading MultiPool Installer ${TAG}. . .
+	echo Downloading MultiPool Installer from 5053s ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/cryptopool-builders/multipool_setup \
+		https://github.com/5053s/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
